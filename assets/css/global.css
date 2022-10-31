@@ -9,11 +9,18 @@ body {
 
 .content {
     width: 100vw;
-    height: 100vh;
     padding: 1rem;
     background-color: #fff;
 }
 
+#detailsCardPokemon{
+    width: 100vw;
+    padding: 1rem;
+    background-color: #fff;
+}
+ul{
+    list-style: none;
+}
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
@@ -21,4 +28,10 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
+    #detailsCardPokemon{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }    
 }
